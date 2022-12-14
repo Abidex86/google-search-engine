@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul{
+    text-align: right;
+    list-style-type: none; 
+}
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration-line: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+.menu a.sign{
+    text-decoration: solid;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    margin-top: 20px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.menu a.sign:hover{
+    background-color:rgb(25, 25, 201);
+    text-decoration: none;
+}
+.image{
+    text-align: center;
+}
+.search{
+    text-align: center;
+    margin-top: 20px;
+    size: 60%;
+}
+.tag ul{
+    text-align: center;
+    list-style: none;
+}
+.tag li{
+    display: inline-block;
+    margin: 20px 0px 10px 20px;
+
+}
+.tag a{
+    text-decoration: none;
+    color:black;
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
+}
+.tag a:hover{
+    display: flexbox;
+    background-color: rgb(248, 244, 244);
+    shape-outside: margin-box;
+}
+.language ul{
+    text-align: center;
+}
+.language li{
+    display: inline-block;
+    font-size: small;
+}
+.language a{
+    list-style-type: none;
+    word-spacing: 3px;
+    text-decoration: none;
+    color: darkblue;
+}
+.language a:hover{
+    text-decoration: underline;
+}
+h5{
+    margin-top: 20%;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+    background-color: rgb(236, 236, 236);
+}
+.about ul{
+    text-align: left;
+    background-color: rgb(236, 236, 236);
+}
+.about li{
+    display: inline-block;
+    word-spacing: 2px;
+}
+.about a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(63, 62, 62);
+    padding: 5px;
+
+}
+.about a:hover{
+    text-decoration: underline;
+}
+#privacy ul{
+    text-align: right ;
+    background-color: rgb(236, 236, 236);
+    list-style-type: none;
+}
+#pricay li{
+    display: inline-block;
+}
+#privacy a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(63, 62, 62);
+    padding: 5px;
+}
+#privacy a:hover{
+    text-decoration: underline;
+}
+#image img{
+    padding-left: 30px;
+    width: 20px;
+    height: 15px;
+    color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+#image a{ 
+   display: inline-flex;
+   padding-bottom: 10px;
+   text-decoration: none;
+   color: rgb(63, 62, 62);
+   background-color: rgb(236, 236, 236);
+}
+#image a:hover{
+    text-decoration: underline;
+}
+
+
+#wrap{
+    text-align: center;
+    background: rgb(236, 236, 236) 100%;
+    background-size: 100%;
+}
+
