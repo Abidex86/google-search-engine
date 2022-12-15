@@ -21,7 +21,6 @@ body{
     border-radius: 5px;
     padding: 10px 15px 10px 15px;
     color: white;
-    margin-top: 20px;
 }
 .menu a:hover{
     text-decoration: underline;
@@ -44,19 +43,19 @@ body{
 }
 .tag li{
     display: inline-block;
-    margin: 20px 0px 10px 20px;
+    margin: 20px 0px 10px 10px;
 
 }
 .tag a{
     text-decoration: none;
     color:black;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(247, 247, 247);
 }
 .tag a:hover{
     display: flexbox;
     background-color: rgb(248, 244, 244);
-    shape-outside: margin-box;
+
 }
 .language ul{
     text-align: center;
@@ -74,73 +73,76 @@ body{
 .language a:hover{
     text-decoration: underline;
 }
-h5{
+
+#NG{
     margin-top: 20%;
-    margin-left: 20px;
+    padding-left: 20px;
     padding-top: 20px;
-    font-weight: lighter;
     font-size: 15px;
     color: rgb(63, 62, 62);
-    background-color: rgb(236, 236, 236);
 }
+
 .about ul{
     text-align: left;
-    background-color: rgb(236, 236, 236);
 }
+
 .about li{
     display: inline-block;
-    word-spacing: 2px;
 }
+
 .about a{
     text-decoration: none;
     list-style-type: none;
     color: rgb(63, 62, 62);
-    padding: 5px;
-
+    padding: 0 5px 0px 5px;
 }
+
 .about a:hover{
     text-decoration: underline;
 }
+
 #privacy ul{
     text-align: right ;
-    background-color: rgb(236, 236, 236);
     list-style-type: none;
 }
+
 #pricay li{
     display: inline-block;
 }
+
 #privacy a{
     text-decoration: none;
     list-style-type: none;
     color: rgb(63, 62, 62);
     padding: 5px;
+    float: right;
 }
+
 #privacy a:hover{
     text-decoration: underline;
 }
+
 #image img{
     padding-left: 30px;
     width: 20px;
     height: 15px;
-    color: rgb(236, 236, 236);
-    text-align: center;
+    padding-left: 44%;
 }
 
 #image a{ 
-   display: inline-flex;
    padding-bottom: 10px;
    text-decoration: none;
    color: rgb(63, 62, 62);
-   background-color: rgb(236, 236, 236);
+   float: right;
+   padding-right: 40%;
 }
+
 #image a:hover{
     text-decoration: underline;
 }
 
 
 #wrap{
-    text-align: center;
-    background: rgb(236, 236, 236) 100%;
-    background-size: 100%;
+    background: rgb(236, 236, 236);
 }
 
